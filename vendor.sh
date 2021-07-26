@@ -29,6 +29,7 @@ grammars=(
     "svelte;v0.8.1;parser.c;scanner.c;tag.h;allocator.h;ekstring.h;uthash.h;vc_vector.h"
     "hcl;main;parser.c;scanner.cc"
     "dockerfile;v0.1.0;parser.c"
+    "kotlin;master;parser.c;"
 )
 
 declare -A repositories
@@ -40,6 +41,7 @@ repositories=(
     ["svelte"]="Himujjal/tree-sitter-svelte"
     ["hcl"]="mitchellh/tree-sitter-hcl"
     ["dockerfile"]="camdencheek/tree-sitter-dockerfile"
+    ["kotlin"]="matheusalcantarazup/tree-sitter-kotlin"
 )
 
 
